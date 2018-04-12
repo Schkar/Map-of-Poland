@@ -31,9 +31,11 @@ __But I don't like the colors. They are ugly :( __
 Since it is a SVG file, one can easily manipulate every part of it through css. There is a hover effect and click effect on voivodships. Of course it can be changed to suit your needs.
 
 __My hometown isn't in the array. What can I do to see it?__
+
 It is quite easy to add new cities, towns, villages, places and more. You just need it's name and decimal coordinates. Add them somewhere in cities array and you're all set.
 
 __I want to use it on my page!__
+
 Feel free to do so and feel free to modify it - for both commercial and personal use. Attribution is appreciated!
 
 
