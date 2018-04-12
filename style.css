@@ -1,0 +1,89 @@
+.mapContainer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 600px;
+    display: block;
+}
+
+
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+.selectCities{
+    margin: 0 auto;
+    display: block;
+    width: 400px;
+    height: 150px;
+    margin-bottom: 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.selectCities label{
+    display: block;
+    margin: 5px;
+}
+
+.voivodship{
+    position: relative;
+}
+
+.voivodship:hover{
+    fill: red;
+}
+
+.voivodship.active{
+    fill: green;
+}
+
+.city{
+    fill: black;
+    stroke: red;
+}
+
+.rangeContainer,
+.searchContainer,
+.checkContainer{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.checkContainer input,
+.checkContainer label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search{
+    width: 50%;
+}
+
+.mapSize{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+text{
+    opacity: 0;
+    visibility: hidden;
+    font-size: 30px;
+    fill: black;
+    stroke: black;
+    transition: all .3s linear;
+}
+
+@media(max-width: 600px){
+    text{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.city:hover + text{
+    visibility: visible;
+    opacity: 1;
+}
