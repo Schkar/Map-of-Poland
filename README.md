@@ -1,5 +1,5 @@
 # Map-of-Poland
-# Interactive map of Poland. 
+## Interactive map of Poland. 
 
 version 1.0
 
